@@ -7,11 +7,9 @@ from model import load_model, predict, prepare_image
 from PIL import Image
 from pydantic import BaseModel
 
-
 app = FastAPI()
 
 model = load_model()
-
 
 # Define the response JSON
 class Prediction(BaseModel):
