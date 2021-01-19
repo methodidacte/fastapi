@@ -1,0 +1,5 @@
+git init
+git remote add origin git@github.com:methodidacte/fastapi.git
+git add --all
+git commit -m "Initialize API"
+git push -u origin master
